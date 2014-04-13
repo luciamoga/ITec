@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DelightOptimization.exe" version="1.0.0.1" publicKeyToken="4cbb9d052fad542a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DelightOptimization" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DelightOptimization.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DelightOptimization.exe" size="59904">
+      <assemblyIdentity name="DelightOptimization" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>H/bJoRqqFckqvOMQGKVc9XztFU7q8FnsDF32OWT054k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="database.mdb" size="692224" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8UF5UNQJ3DNzmYXnhk+3Mibkh5XI1cfGHL654Pk2mKE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DelightOptimization.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Lucia-Dell\Lucia" issuerKeyHash="5d0de6c5cbaefae09374c3bbbd9cb2e32739b298" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f0Jh9EgnpeZ5vMCfvbFJB59vPURsIis6eLuVN0acPdo=</DigestValue></Reference></SignedInfo><SignatureValue>HpwhlXAAyEcc0hVOXlEKOzU3c0NVLQlBMJ2FtbjK6DgHJfoJEGyL7TiC7a6ocxAshZ7P+VtUS4RRdxI54u8DxpzzuwbfHDEg5bpX/6ALPxtPGCapSlGt66XCaIFQGbNhf484iOeZkG+ZfB7kRzMIL7h+5Ysle7hvhuHk1ITPjj4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>reP6mOBrqxKAG3CpkMIcwIIr6KpRYqPdzAea1LiaKOTwdsexe4JXFH6rGDi5A7Qvp6gfwSaH9/QSBvjy29DCqC+dz2vHXlbEcqwE7bvtj0OXSB1ljHAGJxGf6E7fFFkobzi4S3Xk2Su5stxwT6PVTdWafUrnRz+OF/5vNlMN5c8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="da3d9c463795bb783a2b226c443d6f9f0749b1bd9fc0bc79e6a52748f461427f" Description="" Url=""><as:assemblyIdentity name="DelightOptimization.exe" version="1.0.0.1" publicKeyToken="4cbb9d052fad542a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Lucia-Dell\Lucia</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ax6kSbN8TDYuxDLibia6ehEPXVadwO0b7ufMrrho11Q=</DigestValue></Reference></SignedInfo><SignatureValue>iTsonYG+K5UHUtHlof5UI9pLsf7ochWmdi/MhbWH7uNjY1IjJ1navWUTglr8l+M/oNmh2kWrHuxFGCJxZ/cAvU1zYDZcJLuSTtgHu/8avn8YevyYzngQ+oSI4kVsfY+vD53qO2NtQjX/bFa1qwYxtspkQYnYWsM+V3sLIZ/7uYM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>reP6mOBrqxKAG3CpkMIcwIIr6KpRYqPdzAea1LiaKOTwdsexe4JXFH6rGDi5A7Qvp6gfwSaH9/QSBvjy29DCqC+dz2vHXlbEcqwE7bvtj0OXSB1ljHAGJxGf6E7fFFkobzi4S3Xk2Su5stxwT6PVTdWafUrnRz+OF/5vNlMN5c8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQEUlv+7x6f4NOK08X/UBfNjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATAB1AGMAaQBhAC0ARABlAGwAbABcAEwAdQBjAGkAYTAeFw0xNDA0MTMwMjMwMzdaFw0xNTA0MTMwODMwMzdaMCsxKTAnBgNVBAMeIABMAHUAYwBpAGEALQBEAGUAbABsAFwATAB1AGMAaQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt4/qY4GurEoAbcKmQwhzAgivoqlFio93MB5rUuJoo5PB2x7F7glcUfqsYOLkDtC+nqB/BJof39BIG+PLb0MKoL53Pa8deVsRyrATtu+2PQ5dIHWWMcAYnEZ/oTt8UWShvOLhLdeTZK7my3HBPo9VN1Zp9SudHP44X/m82Uw3lzwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJLHHWbhm0g8ug2lIsFDEA4AJf5y7rHeM0n85MGOCeolnRBnTcn8vccbEv4bt5bNDSCKvves8FZoOYmVfzYCxmquDwtyNxrYTjGgT+rRFXmBXaLzK8OmG4TG/sp7C3xNLKkJNBe6o94TIC9RGWnJ829Fv4RdGZxx23IvxBvd/WrU</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
